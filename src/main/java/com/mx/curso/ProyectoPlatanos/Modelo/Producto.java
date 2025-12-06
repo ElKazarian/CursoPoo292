@@ -26,7 +26,6 @@ public class Producto {
     }
 
     public String getUnidad() {
-        // OJO: Asegúrate que en tu Enum esté escrito exactamente igual (ROATAN o Roatan)
         if (this.tipo == TipoDePlatano.Roatan) {
             return "Cajas";
         } else {

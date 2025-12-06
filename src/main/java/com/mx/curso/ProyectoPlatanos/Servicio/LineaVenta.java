@@ -14,6 +14,8 @@ public class LineaVenta {
     }
 
     public LineaVenta(Producto pRoatan, int cantidadVendida) {
+        this.producto= pRoatan;
+        this.CantidadVendida= cantidadVendida;
     }
 
     public double calcularSubtotal() {
